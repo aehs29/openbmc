@@ -20,3 +20,6 @@ DEPENDS += " libbic libpal"
 RDEPENDS_${PN} += " libbic libpal"
 
 FILES_${PN} = "${bindir}"
+
+
+CFLAGS_append = " -Wno-format-security -Wno-unused-result -Wno-unused-variable"

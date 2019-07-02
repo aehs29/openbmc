@@ -21,3 +21,5 @@ DEPENDS += " libbic libpal libocpdbg-lcd"
 FILES_${PN} = "${bindir}"
 
 RDEPENDS_${PN} = "libocpdbg-lcd"
+
+CFLAGS_append = " -Wno-cpp -Wno-format -Wno-implicit-function-declaration"
