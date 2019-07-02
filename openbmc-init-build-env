@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z "$DISTRO_DEFAULT" ]; then
-  DISTRO_DEFAULT=rocko
+  DISTRO_DEFAULT=warrior
 else
   echo "WARNING: distro is set to ${DISTRO_DEFAULT} based on DISTRO_DEFAULT env variable"
 fi
