@@ -15,6 +15,7 @@ SRC_URI = "git://github.com/facebook/openbmc-uboot.git;branch=${SRCBRANCH};proto
            file://fw_env.config \
            file://fw_env.config.full \
            file://0001-libfdt-Make-it-compatible-with-newer-dtc.patch \
+           file://210-openssl-1.1.x-compat.patch \
           "
 
 PV = "v2016.07"
