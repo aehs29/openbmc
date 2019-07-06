@@ -14,6 +14,7 @@ SRCREV = "AUTOINC"
 SRC_URI = "git://github.com/facebook/openbmc-uboot.git;branch=${SRCBRANCH};protocol=https \
            file://fw_env.config \
            file://fw_env.config.full \
+           file://0001-libfdt-Make-it-compatible-with-newer-dtc.patch \
           "
 
 PV = "v2016.07"
